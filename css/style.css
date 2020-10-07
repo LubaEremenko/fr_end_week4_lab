@@ -14,7 +14,7 @@ body{
 }
 
 .fc_text{
-    color: black;
+    color: wheat;
     text-align: left;
     position: absolute;
     top: 30%;
@@ -22,7 +22,12 @@ body{
     /* Styling font */
     font-family: 'Crimson Text', serif;
     font-size: 50px;
+    
 }
+.redText 
+{ 
+    color: red; 
+} 
 
 .first_container hr{
     border: 0;
@@ -32,24 +37,21 @@ body{
 
 /* Styling the second container */
 .second_container{
-    background-color: #3b5a77;
+    background: black;
     text-align: center;
-    padding-bottom: 80px;
-    padding-top: 80px;
-    border: 60px inset #334d66;
+    position: relative;
 }
 
 .second_container img{
     width: 100%;
 }
-
 .second_container h1{
-    color: black;
+    color: rgb(136, 48, 48);
     line-height: 0;
     padding: 40px;
     text-align: center;
-    top: 50%;
-    right: 50%;
+    top: 250%;
+    right: 250%;
     /* Styling font */
     font-family: 'Anton', sans-serif;
 }
@@ -59,25 +61,27 @@ body{
 }
 
 #br_2{
-    font-size: 160px;
-    margin-top: -10px;
+    font-size: 40px;
+    margin-top: 0px;
 }
 
 #br_3{
-    margin-top: -75px;
+    margin-top: 0px;
 }
 
 #br_4{
-    margin-top: -50px;
+    margin-top: 0px;
     font-size: 35px;
 }
 
 /* Styling the third container */
+
+
 .third_container{
-    background-color: #172035;
-    color: white;
-    padding-bottom: 400px;
-    padding-top: 80px;
+    background-color: #adb93b;
+    color: #b93b99;
+    padding-bottom: 4px;
+    padding-top: 1px;
 }
 
 .third_container img{
@@ -88,13 +92,12 @@ body{
 }
 
 .third_container h1{
-    color: white;
-    display: block;
-    margin-top: -470px;
-    text-align: center;
-    top: 50%;
-    right: 50%;
+    color: blue;
+   text-align: center;
+    position: relative;
+    top: 30%;
+    right: 150%;
     /* Styling font */
-    font-family: 'Anton', sans-serif;
-    font-family: 'Amatic SC', cursive;
-}
+    font-family: 'Reenie Beanie', Sansita Swashed;
+    font-family: 'League Script', cursive;
+} 
