@@ -80,8 +80,8 @@ body{
 .third_container{
     background-color: #adb93b;
     color: #b93b99;
-    padding-bottom: 4px;
-    padding-top: 1px;
+    padding-bottom: 200px;
+    padding-top: 10px;
 }
 
 .third_container img{
@@ -92,12 +92,14 @@ body{
 }
 
 .third_container h1{
-    color: blue;
-   text-align: center;
-    position: relative;
-    top: 30%;
-    right: 150%;
-    /* Styling font */
+    color: violet;
+    display: block;
+    margin-top: -270px;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+
+   /* Styling font */
     font-family: 'Reenie Beanie', Sansita Swashed;
     font-family: 'League Script', cursive;
 } 
